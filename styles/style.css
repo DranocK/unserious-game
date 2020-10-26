@@ -52,10 +52,35 @@ h2{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #810e05;
 }
+/** Étiquette de la personne qui a fait le site **/
+.signature{
+  background-color: #222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  position:fixed;
+  top:0px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px #000000;
+  right:20px;
+  border:5px 5px 15px 5px #000000;
+  width: 150px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+/** dans l'étiquette, comment l'écriture est **/
+.signature a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 10px;
+}
+/** les boutons change de couleur **/
 .btn:hover {
 	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
 	background-color:#f24437;
 }
+/** Les boutons bouge d'un pixel **/
 .btn:active {
 	position:relative;
 	top:1px;
